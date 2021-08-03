@@ -1,0 +1,14 @@
+# start up crontab
+
+$ crontab -e
+no crontab for pi - using an empty one
+
+Select an editor.  To change later, run 'select-editor'. 
+1.  /bin/ed
+2. /bin/nano        <---- easiest
+3. /usr/bin/vim.tiny
+
+# I use Nano, but use whatever edior you want and add this for example:
+
+# Turn on TV and set Raspberry Pi as input every third hour during business hours
+30 7,10,13 * * 1-5 /home/pi/TV.sh >> /home/pi/TV.log 
