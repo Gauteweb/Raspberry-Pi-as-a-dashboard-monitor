@@ -1,4 +1,2 @@
 # RaspberryPi
-Short shell scripts and similar. 
-
-Mostly related to retro-gaming on the Raspberry Pi customizing stuff like RetroPie, Recalbox, etc...
+Short shell scripts and similar related to small Raspberry Pi projects. 
