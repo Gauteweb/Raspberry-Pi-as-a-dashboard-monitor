@@ -1,0 +1,17 @@
+HowTo: Rotate display on Raspbian
+----------------------------------
+
+$ sudo nano /boot/config.txt
+
+Add the following to the config file:
+
+
+# Value 1 = Rotate 90 degrees to the left
+# Value 2 = Flip the screen 180 degrees
+# Value 3 = Rotate 90 degrees to the right
+display_rotate=1
+
+
+Save and restart the Raspberry Pi: 
+
+$ sudo shutdown -r now
